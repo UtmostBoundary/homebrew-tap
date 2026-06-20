@@ -1,25 +1,25 @@
 class Hijri < Formula
   desc "A friendly cal-like command-line tool for Hijri (Islamic) dates (Umm al-Qura)"
   homepage "https://github.com/UtmostBoundary/hijri"
-  version "0.2.0"
+  version "0.3.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.2.0/hijri-aarch64-apple-darwin.tar.xz"
-      sha256 "69799edec04210d8a07ef7d099dabe45ab3cf083c299dea361c16ffea5b84a8a"
+      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.3.0/hijri-aarch64-apple-darwin.tar.xz"
+      sha256 "4415b7f27c572e50419659f29aaaf208f0af6d434624731f61bf39de38bca458"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.2.0/hijri-x86_64-apple-darwin.tar.xz"
-      sha256 "c88e085190b4341542c42491618cb9352e14e75ca1adb872633bea6bc5ed5f63"
+      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.3.0/hijri-x86_64-apple-darwin.tar.xz"
+      sha256 "bce20fe9c46e6ff32c06d72bb374d48443f36b643abf24894aa623699f92bb3f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.2.0/hijri-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "4bd00f6d4decf67d64574d755c2dd8e442bffd7d275031e41e6afd14a333da52"
+      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.3.0/hijri-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "3f30ffe490fed2213babe02a7ecc7067ad4978bed8cce9c217318d7e4e0b9ec9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.2.0/hijri-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "453aa57fc45804f0b7e3091aaa70e2e897bd4189662bb0ea1e85efb31e7019a4"
+      url "https://github.com/UtmostBoundary/hijri/releases/download/v0.3.0/hijri-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "805964a2ae3f2729156cbc32ca94a930aea2754eeafea150e4bc726125cf3847"
     end
   end
   license "MIT"
